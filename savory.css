@@ -1,0 +1,127 @@
+ .navibar {
+    background-color: rgb(40, 33, 83);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+   
+}
+.navi-link {
+    color: azure;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+   
+}
+.navibar a:hover {
+    background-color: rgb(146, 117, 202);
+    border-radius: 5px;
+}
+.logo{
+    background-color: rgb(40, 33, 83);color: antiquewhite;
+    font-size: 50px;
+    text-align: center; 
+   
+} 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;                                       /* Adjust as needed */
+  }
+  .card-body {
+    text-align: center;
+  }
+  .hero-section {
+    background-image: url('fud.jpeg'); 
+    background-size: cover;                              /* Ensures the image covers the entire section */
+    background-position: center;                          /* Centers the image */
+    height: 50vh;                                     /* Adjust height as needed (e.g., 50% of the viewport height) */
+    color: rgb(238, 242, 238);                         /* Text color for better contrast */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;                               /* Adjust size as needed */
+    margin: 0;
+  }
+  
+  .hero-section a {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fffafa;
+    background-color: #140c0c;                          /* Button background color */
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+                                                          /* General styles for the cards */
+.card {
+    border: 1px solid #ddd;                                  /* Light border around the cards */
+    border-radius: 8px;                                          /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);                  /* Soft shadow for a modern look */
+    overflow: hidden;                                             /* Ensures content stays inside the card */
+    transition: transform 0.3s, box-shadow 0.3s;                       /* Smooth hover effects */
+  }
+                                                               /* Background color for the "Why Choose Savory" box */
+.card-body h3.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .col-md-3:first-child .card {
+    background-color: #58c1a7;                               /* Light gray background color */
+    border: 1px solid #ccc;                                      /* Optional: border for better definition */
+  }
+  
+  
+                                                    /* Card body styling */
+  .card-body {
+    padding: 20px;                                     /* Add padding for a neat layout */
+    text-align: center;                                   /* Center-align content for consistency */
+  }
+  
+                                                      /* Card title styling */
+  .card-title {
+    font-size: 1.5rem;                                      /* Larger font size for titles */
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;                                                  /* Darker text color */
+  }
+  
+  
+                                                                      /* Paragraph inside the cards */
+  
+  
+ 
+  
+                                                                        /* Button hover effect */
+ 
+  
+                                                                       /* Unordered list styling inside cards */
+  
+  
+  
+                                                                   /* Responsive design: Adjust card layout on smaller screens */
+  @media (max-width: 768px) {
+    .col-md-3 {
+      margin-bottom: 20px;                                                 /* Adds space between cards on smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .col-md-3 {
+      flex: 0 0 100%;                                                  /* Stack cards on very small screens */
+      max-width: 100%;
+    }
+  }
+  
+  
+  
